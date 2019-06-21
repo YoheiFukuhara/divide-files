@@ -1,2 +1,2 @@
 # divide-files
-Divide file for Leonardo file upload
+Divide files into directories for uploading files
