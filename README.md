@@ -1,23 +1,41 @@
-# Purpose
-Move files to sub directories for smaller chunk to upload Leonardo.
+# Python version
+I used this repository with python 3.6.7
+Probably it works with other python 3.X versions. No standard libraries are used.
 
+# upload.py
+Move files to Leonardo file storage for Machine Learning
 
-# divide-files
-Divide files into directories for uploading files
-
-
-# parameters
-## -b / --base_dir
+## parameters
+### -b / --base_dir
 file path moved from
 
-## -d / --direcotry 
+### -tr / --training 
+Number of files to be uploaded for training
+
+### -v / --validation 
+Number of files to be uploaded for validation
+
+### -t / --test 
+Number of files to be uploaded for test
+
+### -u / --upload
+Target path to upload in Leonardo
+Just display cf commands and no run
+
+# divide.py
+Divide files into directories for uploading files
+
+## parameters
+### -b / --base_dir
+file path moved from
+
+### -d / --direcotry 
 Number of directory to create/ save files
 
-## -f / --file
+### -f / --file
 Number of files to be saved
 
-
-## -u / --upload
+### -u / --upload
 Target path to upload in Leonardo
 Just display cf commands and no run
 
